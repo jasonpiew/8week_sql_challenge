@@ -4,4 +4,5 @@ This is a 8weeksqlchallenge with danny (https://8weeksqlchallenge.com/getting-st
 ## Table of Contents
 1.  [Week 1](https://github.com/jasonpiew/8week_sql_challenge/tree/main/week1)
 2.  [Week 2](https://github.com/jasonpiew/8week_sql_challenge/tree/main/week2)
+3.  More to be added :D
 ## Happy coding and learning, thanks for visiting
