@@ -1,3 +1,6 @@
+# Pizza Metrics
+
+
 ## Before we begin, let's take a look at our dataset
 ### It's always a best practice to analyze our dataset before we proceed on
 ```sql
@@ -99,7 +102,6 @@ FROM cleaned_data_type
 #### All set, let's get into the data!
 
 # Questions
-## Pizza Metrics
 
 1. How many pizzas were ordered?
 ```sql
