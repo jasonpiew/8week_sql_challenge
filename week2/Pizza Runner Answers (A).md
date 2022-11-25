@@ -122,16 +122,21 @@ FROM
  ![1](https://user-images.githubusercontent.com/83629572/203708848-cc948caa-7871-4e9d-9bdf-6412e190e72a.png)
 
 
-3. How many successful orders were delivered by each runner?
+3. How many successful orders were delivered by each runner? (Suggestion by Raushan Kumar)
 ```sql
 SELECT
-	count(order_id) AS "Successful Order"
+	runner_id,
+	count(order_id)
 FROM
-	runner_orders_cleaned
+	pizza_runner.runner_orders_cleaned
 WHERE
-	pickup_time IS NOT NULL;
+	distance >0
+GROUP BY
+	1
+ORDER BY
+	2 DESC;
 ```
-![1](https://user-images.githubusercontent.com/83629572/203709016-30fecbd6-f52d-4816-bfa6-85262a5ffc2a.png)
+![1](https://user-images.githubusercontent.com/83629572/203923273-27d8c42b-cbdc-43c6-8218-13e8aad215ed.png)
 
 
 4. How many of each type of pizza was delivered?
